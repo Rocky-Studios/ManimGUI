@@ -42,7 +42,7 @@
 		<Authors>Gergo Kaszas, Sheldon Machado</Authors>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/Rocky-Studios/ManimGUI</RepositoryUrl>
-		<TargetFramework>net8.0-maccatalyst18.0</TargetFramework>
+		<TargetFramework>net8.0-maccatalyst17.5</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
@@ -86,6 +86,10 @@
 	  <ApplicationDisplayVersion>0.0.2</ApplicationDisplayVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	  <WarningLevel>4</WarningLevel>
+	  <PlatformTarget>anycpu</PlatformTarget>
+	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
