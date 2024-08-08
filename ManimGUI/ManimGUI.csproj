@@ -42,7 +42,7 @@
 		<Authors>Gergo Kaszas, Sheldon Machado</Authors>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/Rocky-Studios/ManimGUI</RepositoryUrl>
-		<TargetFramework>net8.0-maccatalyst17.5</TargetFramework>
+		<TargetFramework>net8.0-maccatalyst16.4</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
